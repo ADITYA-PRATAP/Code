@@ -20,7 +20,7 @@ const Signup = () => {
             }))
         // const {name,password,email,location}=credentials;
 
-        const response = await fetch("http://localhost:5000/createuser", {
+        const response = await fetch("https://gh-q76i.onrender.com/createuser", {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json',

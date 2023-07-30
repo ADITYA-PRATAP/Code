@@ -30,7 +30,7 @@ export default function Loginform() {
       }))
     // const {name,password,email,location}=credentials;
 
-    const response = await fetch("/loginuser", {
+    const response = await fetch("https://gh-q76i.onrender.com/loginuser", {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
