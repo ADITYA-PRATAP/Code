@@ -1,0 +1,56 @@
+.heading{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+}
+.footer1{
+    /* background: linear-gradient(to left,#ffffff  , #abe3e5 0%, #b0bdef 0%, #ffffff 55%); */
+    /* background-color: #000000; */
+    background: linear-gradient(to left, #ffffff, #abe3e5 0%, #c0f7f0 0%, #ffffff 75%);
+
+
+}
+.footer{
+    background: linear-gradient(to left,#ffffff  , #abe3e5 0%, #b0bdef 0%, #ffffff 55%);
+    /* background-color: #000000; */
+    /* background: linear-gradient(to left, #ffffff, #abe3e5 0%, #c0f7f0 0%, #ffffff 75%); */
+}
+.main4{
+    width: 100vw;
+    height: 90vh;
+    /* margin-top:150px; */
+    padding-top: 100px;
+    background: linear-gradient(to left,#ffffff  , #abe3e5 0%, #b0bdef 0%, #ffffff 55%);
+
+}
+.main3{
+    width: 100vw;
+    height: 30vh;
+    /* margin-top:150px; */
+    padding-top: 100px;
+    background: linear-gradient(to left,#ffffff  , #abe3e5 0%, #b0bdef 0%, #ffffff 55%);
+}
+.card_Insider{
+    display: grid;
+    grid-template-columns:50% 50%;
+    margin-top: 4%;
+    margin-left: 50px;
+}
+
+.font{
+    display: flex;
+    justify-content: center;
+    color: #4a4845;
+    /* position: absolute; */
+    font-size: 4vh;
+    padding: 50px;
+    -webkit-text-stroke: 0vw #000000;
+}
+ 
+
+.text{
+    display: inline-block;
+    margin-left: 150px;
+    color:rgb(213, 130, 41);
+    font-size: 30px;
+    font-weight:700;
+}
